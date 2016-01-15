@@ -16,6 +16,9 @@ Sources:
 		<a href="http://plugins.jquery.com/scrollTo/">JQuery scrollTo Plugin</a>
 	</li>
 	<li>
-		<a href="http://www.initializr.com/"> bootstrap site created with Initializr</a>
+		<a href="http://www.initializr.com/"> Bootstrap site created with Initializr</a>
+	</li>
+	<li>
+		<a href="https://github.com/pixelcog/parallax.js/">JQuery Parallax Plugin</a>
 	</li>
 </ul>
