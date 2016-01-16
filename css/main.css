@@ -12,7 +12,7 @@ body {
 }
 
 .parallax-window {
-    min-height: 400px;
+    min-height: 600px;
     min-width: 100%;
     background: transparent;
 }
@@ -20,9 +20,22 @@ body {
 	float: left;
 
 }
+.center-text{
+	position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 30%;
+}
 
 
-
+.center-text div{
+	position: relative;
+    text-align: center;
+    color: black;
+    background-color: purple;
+	opacity: .8;
+    font-size: 4em;
+}
 
 
 

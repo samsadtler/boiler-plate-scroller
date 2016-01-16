@@ -23,19 +23,21 @@
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+        <header>
 
         <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
+            <div class="navbar-header navbar-inner">
+                <div class="container-fluid">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Project name</a>
+                    <a class="navbar-brand" href="#">Project name</a>
                     <div class="nav-collapse collapse">
-                        <ul class="nav pull-right" id="top-nav">
+                        <ul class="nav navbar-nav pull-right" id="top-nav">
                             <li ><a href="#">Home</a></li>
+
                             <li><a href="#section-2">Section 1</a></li>
                             <li><a href="#section-3">Section 2</a></li>
                             <li><a href="#section-4">Section 3</a></li>
@@ -45,24 +47,29 @@
                 </div>
             </div>
         </div>
-       
+       </header>
         <div class="container-fluid">
             <div class="parallax-window col" data-parallax="scroll" data-image-src="img/IMG_6131.jpg"></div>
+            <div class="center-text" data-parallax="scroll">
+                <div>Words</div>
+            </div>
             <hr>     
-            <div class="block" id="section-2">
+            <div class="block row" id="section-2">
                 <h2 class="page-header">
                     Page One
                 </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac neque vulputate justo blandit rhoncus. Integer nec neque eros. Donec ut magna dui, ac adipiscing felis. In odio massa, porta ornare pulvinar volutpat, ullamcorper et metus. Proin neque metus, tincidunt at adipiscing id, mattis ut justo. Mauris varius justo ac libero ultrices tincidunt. Sed rutrum ultrices elit, non rhoncus libero aliquam et. Sed sollicitudin, odio ut gravida congue, leo enim vehicula diam, quis hendrerit velit mauris nec neque. Sed sagittis facilisis augue quis laoreet. Pellentesque fermentum augue vel elit faucibus tempor.
+                <div class="col-xs-6">
+                    <p >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac neque vulputate justo blandit rhoncus. Integer nec neque eros. Donec ut magna dui, ac adipiscing felis. In odio massa, porta ornare pulvinar volutpat, ullamcorper et metus. Proin neque metus, tincidunt at adipiscing id, mattis ut justo. Mauris varius justo ac libero ultrices tincidunt. Sed rutrum ultrices elit, non rhoncus libero aliquam et. Sed sollicitudin, odio ut gravida congue, leo enim vehicula diam, quis hendrerit velit mauris nec neque. Sed sagittis facilisis augue quis laoreet. Pellentesque fermentum augue vel elit faucibus tempor.
+                    </p>
+                </div>
+                <div class="col-xs-6">
+                    <p >
+                        Praesent vel nibh quis diam sollicitudin ullamcorper ut sit amet est. Mauris nisl sapien, sollicitudin sed feugiat a, pretium vel libero. Phasellus vulputate iaculis eros, in consectetur nunc mattis at. Nam hendrerit gravida neque id placerat. Vestibulum diam massa, dapibus ut ornare sit amet, vulputate vel risus. Nulla nibh tortor, dignissim id aliquam ac, malesuada euismod diam. Donec scelerisque nulla nec ligula venenatis placerat. Morbi vitae sem id turpis ullamcorper commodo.
 
-                    Praesent vel nibh quis diam sollicitudin ullamcorper ut sit amet est. Mauris nisl sapien, sollicitudin sed feugiat a, pretium vel libero. Phasellus vulputate iaculis eros, in consectetur nunc mattis at. Nam hendrerit gravida neque id placerat. Vestibulum diam massa, dapibus ut ornare sit amet, vulputate vel risus. Nulla nibh tortor, dignissim id aliquam ac, malesuada euismod diam. Donec scelerisque nulla nec ligula venenatis placerat. Morbi vitae sem id turpis ullamcorper commodo.
-
-                    Duis mi tellus, rutrum quis tempus sed, eleifend sed erat. Duis lacinia augue ut lectus scelerisque eu tincidunt massa blandit. Fusce vestibulum accumsan nisi, sed pharetra tellus accumsan eleifend. Praesent vitae erat nibh. Nam convallis velit porta urna tristique vestibulum. Sed consequat magna non nisl condimentum feugiat. Nullam odio arcu, commodo eget dignissim vitae, cursus quis arcu. Integer vitae ipsum sit amet lectus sodales blandit elementum sit amet est. Aenean sollicitudin, leo ut rhoncus porta, velit urna euismod odio, sed placerat lorem turpis sit amet magna. Vestibulum ante mi, pharetra in blandit eget, imperdiet nec mi. Aenean semper bibendum mollis. Pellentesque non turpis eget odio pretium volutpat in id lectus. Pellentesque id augue nisi. Morbi vitae felis sit amet nisl pulvinar auctor. Aenean at felis at risus dictum faucibus.
-
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus tellus, malesuada ut dapibus vitae, luctus vitae nibh. Donec ac quam sit amet lorem scelerisque adipiscing eu et neque. Nulla et ligula erat, ac molestie elit. Nullam vehicula tortor sed felis tempus condimentum. Fusce ante magna, lacinia id bibendum sit amet, sodales eu lorem. Duis accumsan, sem a commodo sagittis, turpis nisl scelerisque lectus, id tristique massa nibh quis magna.
-                </p>
-                 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus tellus, malesuada ut dapibus vitae, luctus vitae nibh. Donec ac quam sit amet lorem scelerisque adipiscing eu et neque. Nulla et ligula erat, ac molestie elit. Nullam vehicula tortor sed felis tempus condimentum. Fusce ante magna, lacinia id bibendum sit amet, sodales eu lorem. Duis accumsan, sem a commodo sagittis, turpis nisl scelerisque lectus, id tristique massa nibh quis magna.
+                    </p>
+                </div>
                 
             </div> <!-- end block -->
             
@@ -105,7 +112,7 @@
                 
             </div>
             <footer>
-                <p>&copy; Company 2016</p>
+                <p>&copy; 2016</p>
             </footer>
 
         </div> <!-- /container -->
