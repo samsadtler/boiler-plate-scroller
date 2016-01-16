@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -14,7 +15,7 @@
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="css/jquery.bxslider.css" rel="stylesheet" />
-        <!-- // <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -44,16 +45,7 @@
                 </div>
             </div>
         </div>
-        <!-- Path to Parallax Image Goes in data-image-src -->
-        <!-- <div class="container-fluid">
-        <div class="row">
-                  <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
-                  <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
-                  Optional: clear the XS cols if their content doesn't match in height
-                  <div class="clearfix visible-xs-block"></div>
-                  <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
-            </div>
-            </div> -->
+       
         <div class="container-fluid">
             <div class="parallax-window col" data-parallax="scroll" data-image-src="img/IMG_6131.jpg"></div>
             <hr>     
@@ -106,17 +98,7 @@
                 </ul>
                 
             </div> <!-- end block -->
-            <div class="row">
-                  <div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
-                  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-            </div>
-            <div class="row">
-                  <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
-                  <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
-                  <!-- Optional: clear the XS cols if their content doesn't match in height -->
-                  <div class="clearfix visible-xs-block"></div>
-                  <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
-            </div>
+            
             <div class="row">
                 <div class="col-xs-6 col-sm-4" id="section-4">
                     <h2 class="page-header">
@@ -131,15 +113,17 @@
 
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus tellus, malesuada ut dapibus vitae, luctus vitae nibh. Donec ac quam sit amet lorem scelerisque adipiscing eu et neque. Nulla et ligula erat, ac molestie elit. Nullam vehicula tortor sed felis tempus condimentum. Fusce ante magna, lacinia id bibendum sit amet, sodales eu lorem. Duis accumsan, sem a commodo sagittis, turpis nisl scelerisque lectus, id tristique massa nibh quis magna.
                     </p>
-                    </div><!--end block-->
+                    </div>
+                    <!-- Second Set of Images goes here -->
+                    <!-- add or remove <li> elements from more or less images -->
                     <div class="col-xs-12 col-sm-8">
-                        <img src="img/IMG_6131.jpg" />
-                        <!-- <ul class=" bxslider">
+                        
+                        <ul class=" bxslider ">
                           <li><img src="img/IMG_6131.jpg" /></li>
                           <li><img src="img/IMG_6131.jpg" /></li>
                           <li><img src="img/IMG_6131.jpg" /></li>
                           <li><img src="img/IMG_6131.jpg" /></li>
-                        </ul> -->
+                        </ul>
                     </div>
                 
             </div>
@@ -157,12 +141,15 @@
         <!-- // <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
         <!-- bxSlider Javascript file -->
     
-       
-        <script src="js/jquery.bxslider.min.js"></script>
+        
+        
         <!-- bxSlider CSS file -->
-        <script src="js/plugins.js"></script>
+        <script src="js/jquery-2.2.0.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
         <script src="js/parallax.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script>
              $('#top-nav').onePageNav({
