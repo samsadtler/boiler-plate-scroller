@@ -1,21 +1,25 @@
 
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+  custom styles
+*/
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
 .block{
     padding: 20px 0px;   
 }
 
-
-
-
-
 .parallax-window {
     min-height: 400px;
+    min-width: 100%;
     background: transparent;
 }
+.side{
+	float: left;
 
+}
 
 
 
