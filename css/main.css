@@ -4,7 +4,7 @@
   custom styles
 */
 body {
-    padding-top: 60px;
+    padding-top: 70px;
     padding-bottom: 40px;
     background-color: gray;
 }
@@ -17,10 +17,10 @@ body {
     min-width: 100%;
     background: transparent;
 }
-.side{
+/*.side{
 	float: left;
 
-}
+}*/
 .center-text{
 	position: absolute;
     text-align: center;
@@ -33,12 +33,13 @@ body {
 	position: relative;
     text-align: center;
     color: black;
-    background-color: purple;
-	opacity: .8;
+    background-color: gray;
+	opacity: .7;
     font-size: 4em;
 }
-
-
+.bx-wrapper .bx-viewport {
+	border: 0px;
+}
 
 
 
