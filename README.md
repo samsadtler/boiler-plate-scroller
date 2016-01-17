@@ -4,24 +4,24 @@ This is a boilerplate of a single one page scroller site with carousels made for
 Sources:
 <ul>
 	<li>
-		<a href="http://untame.net/2013/01/how-to-design-a-single-page-scrolling-site-with-twitter-bootstrap/">Untame</a>
+		<a href="http://untame.net/2013/01/how-to-design-a-single-page-scrolling-site-with-twitter-bootstrap/">Untame, for initial template. A bit out of date.</a>
 	</li>
 	<li>
-		<a href="http://www.initializr.com/"> Bootstrap site created with Initializr</a>
+		<a href="http://www.initializr.com/"> Bootstrap v3.3.6 site created with Initializr</a>
 	</li>
 	<li>
 	JQuery:
 		<li>
-			<a href="https://github.com/davist11/jQuery-One-Page-Nav">JQuery One Page Nav Plugin</a>
+			<a href="https://github.com/davist11/jQuery-One-Page-Nav">One Page Nav Plugin</a>
 		</li>
 		<li>
-			<a href="http://plugins.jquery.com/scrollTo/">JQuery scrollTo Plugin</a>
+			<a href="http://plugins.jquery.com/scrollTo/">scrollTo Plugin</a>
 		</li>
 		<li>
-			<a href="https://github.com/pixelcog/parallax.js/">JQuery Parallax Plugin</a>
+			<a href="https://github.com/pixelcog/parallax.js/">Parallax Plugin</a>
 		</li>
 		<li>
-			<a href="http://bxslider.com/">JQuery bxslider Plugin</a>
+			<a href="http://bxslider.com/">bxslider Plugin</a>
 		</li>
 	</li>
 </ul>
