@@ -69,7 +69,10 @@ div.container-fluid{
   and (-webkit-min-device-pixel-ratio: 2) {
 	body{
 		font-size: 2em;
-	}	
+	}
+	h2{
+		font-size: 24px;
+	}
 }
 
 /* Portrait */
@@ -81,6 +84,9 @@ div.container-fluid{
   	body{
 		font-size: 2em;
 	}	
+	h2{
+		font-size: 24px;
+	}
 }
 
 /* Landscape */
@@ -92,6 +98,9 @@ div.container-fluid{
 	body{
 		font-size: 2em;
 	}	
+	h2{
+		font-size: 24px;
+	}
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -103,7 +112,8 @@ div.container-fluid{
   and (-webkit-min-device-pixel-ratio: 2) {
 	body{
 		font-size: 2em;
-	}	
+	}
+
 }
 
 /* Portrait */
@@ -182,6 +192,9 @@ div.container-fluid{
   and (orientation: portrait) { 
 	body{
 		font-size: 2em;
+	}
+	h2{
+		font-size: 24px;
 	}	
 }
 
@@ -193,7 +206,10 @@ div.container-fluid{
   and (orientation: landscape) { 
 	body{
 		font-size: 2em;
-	}	
+	}
+	h2{
+		font-size: 24px;
+	}
 }
 
 
