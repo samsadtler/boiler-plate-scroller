@@ -39,10 +39,12 @@ body {
     font-size: 4em;
 }
 .bx-wrapper .bx-viewport {
-	overflow: hidden;
+
 	border: 0px;
 }
-
+div.container-fluid{
+	overflow: hidden;
+}
 .split{
 	/*column split for text only page*/
 
