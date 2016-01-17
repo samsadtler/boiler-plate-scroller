@@ -45,6 +45,9 @@ body {
 div.container-fluid{
 	overflow: hidden;
 }
+.navbar.navbar-inverse.navbar-fixed-top{
+	z-index: 10000;
+}
 .split{
 	/*column split for text only page*/
 
