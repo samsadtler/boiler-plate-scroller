@@ -14,7 +14,7 @@ body {
 }
 
 .parallax-window {
-    min-height: 600px;
+    min-height: 700px;
     min-width: 100%;
     background: transparent;
 }
@@ -29,7 +29,9 @@ body {
     top: 30%;
 }
 
-
+.full-image{
+  width: 100%;
+}
 .center-text div{
 	position: relative;
     text-align: center;

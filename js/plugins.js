@@ -265,5 +265,9 @@
 
 
 $(document).ready(function(){
-  $('.bxslider').bxSlider();
+  $('.bxslider').bxSlider(
+  	{pager:false,
+  	easing:'ease-out'
+  	}
+  	);
 });
