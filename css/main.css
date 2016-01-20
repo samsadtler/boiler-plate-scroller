@@ -3,9 +3,12 @@
 /* ==========================================================================
   custom styles
 */
+*{
+  font-family: 'Roboto', sans-serif;
+}
 body {
-    padding-top: 70px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    
     background-color: gray;
 
 }
@@ -17,20 +20,20 @@ body {
     min-height: 700px;
     min-width: 100%;
     background: transparent;
+    padding-bottom: 40px;
 }
-/*.side{
-	float: left;
-
-}*/
+ul.bxslider {
+  margin: 0;
+  padding: 0;
+}
 .center-text{
 	position: absolute;
     text-align: center;
     width: 100%;
     top: 30%;
 }
-
-.full-image{
-  width: 100%;
+.img-responsive{
+  padding-bottom: 35px;
 }
 .center-text div{
 	position: relative;
@@ -46,9 +49,12 @@ body {
 }
 div.container-fluid{
 	overflow: hidden;
+  padding: 0px;
+  margin: 0px;
 }
 .navbar.navbar-inverse.navbar-fixed-top{
 	z-index: 10000;
+
 }
 .split{
 	/*column split for text only page*/
