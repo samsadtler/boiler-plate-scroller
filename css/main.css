@@ -46,6 +46,7 @@ ul.bxslider {
 .bx-wrapper .bx-viewport {
 
 	border: 0px;
+  background-color: gray;
 }
 div.container-fluid{
 	overflow: hidden;
@@ -55,6 +56,13 @@ div.container-fluid{
 .navbar.navbar-inverse.navbar-fixed-top{
 	z-index: 10000;
 
+}
+.row-height{
+  height: 500px;
+}
+.pos{
+  position: relative;
+  top: 50%;
 }
 .split{
 	/*column split for text only page*/
