@@ -19,11 +19,10 @@ sample images copyright Sam Sadtler 2016
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+        <!-- <link rel="stylesheet" type="text/css" href="css/vendor/jquery.fullPage.css" /> -->
         <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
-        <!-- <link rel="stylesheet" href="css/bootstrap-responsive.min.css"> -->
         <link href="css/vendor/jquery.bxslider.css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="css/vendor/jquery.fullPage.css" />
+       
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
         
@@ -35,9 +34,8 @@ sample images copyright Sam Sadtler 2016
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-        <div class="container-fluid">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top">   
         <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -67,9 +65,9 @@ sample images copyright Sam Sadtler 2016
                 </div><!-- /.navbar-collapse -->
           
         </nav>
-        </div><!-- /.container-fluid -->
-        <div class="container-fluid">
-            <div class="parallax-window col" data-parallax="scroll" data-image-src="img/IMG_6131.jpg" id="home"></div>
+    </div><!-- end container-fluid -->
+    <div class="container-fluid" id="fullpage">
+        <div class="parallax-window col section" data-parallax="scroll" data-image-src="img/IMG_6131.jpg" id="home"></div>
             <div class="center-text" data-parallax="scroll">
                 <div><h1>Welcome To The Project</h1></div>
             </div>
@@ -95,7 +93,7 @@ sample images copyright Sam Sadtler 2016
                 </div>
                 <div class="col-xs-1"></div>
             </div> <!-- end block -->
-             <div class="row">
+             <div class="row section">
                 <div class="col-xs-1"></div>
                 <div class="col-xs-3" id="section-2">
                     <h2 >
@@ -122,7 +120,7 @@ sample images copyright Sam Sadtler 2016
             </div>
 
 
-            <div class="block row" id="section-3">
+            <div class="block row section" id="section-3">
                 <div class="col-xs-1"></div>
                 <div class="col-xs-10">
 
@@ -143,13 +141,13 @@ sample images copyright Sam Sadtler 2016
             </div> <!-- end block -->
 
             <!-- Full image -->
-            <div class="row " id="section-4">
+            <div class="row section" id="section-4">
                 <div class="col-xs-12">
                     <img class="img-responsive" src="img/IMG_6131.jpg" alt="Responsive image"/>
                 </div>     
             </div>
             <!-- Add Slides with Text here -->
-            <div class="row">
+            <div class="row section">
                 <div class="col-xs-1"></div>
                 <div class="col-xs-3" id="section-5">
                     <h2 >
@@ -175,7 +173,7 @@ sample images copyright Sam Sadtler 2016
                 <div class="col-xs-1"></div>
             </div>
             
-            <div class="row row-height">
+            <div class="row row-height section">
                 <div class=" pos col-xs-5 col-xs-offset-4" id="section-6">
                     <!-- final page -->
                     <h2 >
@@ -202,27 +200,20 @@ sample images copyright Sam Sadtler 2016
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/jquery.bxslider.min.js"></script>
         <script src="js/vendor/parallax.min.js"></script>
-        
+
         <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-        <script src="vendors/jquery.easings.min.js"></script>
+        <!-- // <script src="js/vendor/jquery.easings.min.js"></script> -->
 
 
         <!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
-        <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+        <!-- // <script type="text/javascript" src="js/vendor/jquery.slimscroll.min.js"></script> -->
 
-        <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <!-- // <script type="text/javascript" src="js/vendor/jquery.fullPage.min.js"></script> -->
         <!-- // <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Enables the smooth scrolling when a page is selected -->
-        <script>
-             $('#top-nav').onePageNav({
-                 currentClass: 'active',
-                 changeHash: true,
-                 scrollSpeed: 1200
-            });
-        </script>
         
     </body>
 </html>

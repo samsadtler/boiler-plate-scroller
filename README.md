@@ -12,19 +12,19 @@ Sources:
 	<li>
 	JQuery:
 		<li>
-			<a href="https://github.com/davist11/jQuery-One-Page-Nav">One Page Nav Plugin</a>: needed for transition from one page to the next.
+			<a href="https://github.com/davist11/jQuery-One-Page-Nav">One Page Nav Plugin</a>: Needed for transition from one page to the next.
 		</li>
 		<li>
-			<a href="http://plugins.jquery.com/scrollTo/">scrollTo Plugin</a>: needed for transition from one page to the next.
+			<a href="http://plugins.jquery.com/scrollTo/">scrollTo Plugin</a>: Needed for transition from one page to the next.
 		</li>
 		<li>
-			<a href="https://github.com/pixelcog/parallax.js/">Parallax Plugin</a>: needed for sweet parallax action.
+			<a href="https://github.com/pixelcog/parallax.js/">Parallax Plugin</a>: Needed for sweet parallax action.
 		</li>
 		<li>
 			<a href="http://bxslider.com/">bxslider Plugin</a>: Needed for carousel pages.
 		</li>
 		<li>
-			<a href="https://github.com/alvarotrigo/fullPage.js">fullPage Plugin</a> :needed for making each div an individual page.
+			<a href="https://github.com/alvarotrigo/fullPage.js">fullPage Plugin</a>: Needed for making each div an individual page.
 		</li>
 	</li>
 </ul>

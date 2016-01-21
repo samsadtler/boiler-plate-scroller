@@ -263,11 +263,15 @@
 	
 })( jQuery, window , document );
 
-
 $(document).ready(function(){
-  $('.bxslider').bxSlider(
-  	{pager:false,
-  	easing:'ease-out'
-  	}
-  	);
+	// $('#fullpage').fullpage();
+	$('.bxslider').bxSlider(
+		{pager:false,
+		easing:'ease-out'
+		});
+	$('#top-nav').onePageNav({
+                 currentClass: 'active',
+                 changeHash: true,
+                 scrollSpeed: 1200
+            });
 });

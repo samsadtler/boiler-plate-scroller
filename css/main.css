@@ -44,7 +44,7 @@ ul.bxslider {
     font-size: 4em;
 }
 .bx-wrapper .bx-viewport {
-
+  box-shadow: 0 0 5px #808080;
 	border: 0px;
   background-color: gray;
 }
@@ -57,6 +57,8 @@ div.container-fluid{
 	z-index: 10000;
 
 }
+img{border:0;}
+
 .row-height{
   height: 500px;
 }
