@@ -57,6 +57,9 @@ div.container-fluid{
 	z-index: 10000;
 
 }
+.bx-next{
+    right: 19px !important;
+}
 img{border:0;}
 
 .row-height{
