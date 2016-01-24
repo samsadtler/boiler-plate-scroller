@@ -39,6 +39,11 @@ nav{
 .h2{
   color:white;
 }
+.h2-custom{
+  font-size:30px;
+  position: relative;
+  top: -8px;
+}
 h2{
   font-size:30px;
 }
@@ -74,9 +79,9 @@ ul.bxslider {
     font-size: 4em;
 }
 .bx-wrapper .bx-viewport {
-  box-shadow: 0 0 5px #808080;
+  box-shadow: 0 0 0px #e6e6e6;
 	border: 0px;
-  background-color: gray;
+  background-color: #e6e6e6;
 }
 div.container-fluid{
 	overflow: hidden;
@@ -90,7 +95,7 @@ div.container-fluid{
 .bx-next{
     right: 19px !important;
 }
-img{border:0;}
+img{border:10px;}
 
 .row-height{
   height: 500px;
