@@ -15,7 +15,21 @@ body {
 .block{
     padding: 20px 0px;   
 }
+.h1{
+  font-size: 54px;
 
+}
+.h4{
+  font-size: 24px;
+
+}
+
+h2{
+  font-size:30px;
+}
+p{
+  font-size: 20px;
+}
 .parallax-window {
     min-height: 600px;
     min-width: 100%;
@@ -38,9 +52,9 @@ ul.bxslider {
 .center-text div{
 	position: relative;
     text-align: center;
-    color: black;
-    background-color: gray;
-	opacity: .7;
+    color: white;
+    /*background-color: gray;*/
+	/*opacity: .7;*/
     font-size: 4em;
 }
 .bx-wrapper .bx-viewport {
@@ -69,8 +83,16 @@ img{border:0;}
   position: relative;
   top: 50%;
 }
+
+.s-w-t{
+  font-size: 13px;
+}
+.spacer-div{
+  height: 95px;
+}
 .split{
 	/*column split for text only page*/
+  font-size: 20px;
 
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
