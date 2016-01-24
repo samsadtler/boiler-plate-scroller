@@ -112,13 +112,9 @@ img{border:10px;}
   font-size: 13px;
   line-height: 24px;
 }
-.spacer-div{
-  height: 95px;
-}
-.spacer{
-  height: 35px
-}
-.sm-spacer{height: 15px}
+.sm-spacer{ height: 15px}
+.spacer{ height: 35px}
+.spacer-div{ height: 95px;}
 .slides-only{
   height: 500px;
 }
