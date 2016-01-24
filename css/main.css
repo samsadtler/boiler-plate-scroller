@@ -98,12 +98,12 @@ div.container-fluid{
 img{border:10px;}
 
 .row-height{
-  height: 500px;
+  height: 290px;
 }
 .pos{
   position: relative;
   top: 50%;
-
+  left: 25px;
 }
 .end{
    background-color: gray;
