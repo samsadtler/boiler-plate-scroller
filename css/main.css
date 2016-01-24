@@ -102,7 +102,13 @@ img{border:10px;}
 }
 .pos{
   position: relative;
-  top: 50%;
+  top: -moz-calc(50% - 20px);
+  /* WebKit */
+  top: -webkit-calc(50% - 20px);
+  /* Opera */
+  top: -o-calc(50% - 20px);
+  /* Standard */
+  top: calc(50% - 20px);
   left: 25px;
 }
 .end{
