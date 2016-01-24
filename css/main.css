@@ -31,6 +31,7 @@ h2{
 }
 p{
   font-size: 20px;
+  line-height: 32px;
 }
 .parallax-window {
     min-height: 600px;
@@ -50,7 +51,7 @@ ul.bxslider {
 }
 .img-responsive{
   padding-bottom: 35px;
-  height: 900px;
+  /*height: 900px;*/
 }
 .center-text div{
 	position: relative;
@@ -92,17 +93,19 @@ img{border:0;}
 }
 .s-w-t{
   font-size: 13px;
+  line-height: 24px;
 }
 .spacer-div{
   height: 95px;
 }
 .spacer{
-  height: 40px
+  height: 35px
 }
 .sm-spacer{height: 15px}
 .slides-only{
   height: 500px;
 }
+
 .split{
 	/*column split for text only page*/
   font-size: 20px;
@@ -118,6 +121,11 @@ img{border:0;}
     -webkit-column-rule: 4px; /* Chrome, Safari, Opera */
     -moz-column-rule: 4px;  /* Firefox */
     column-rule: 4px 
+}
+footer{
+  color: white;
+    
+
 }
 /* ----------- iPhone 4 and 4S ----------- */
 
