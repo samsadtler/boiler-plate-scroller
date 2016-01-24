@@ -9,7 +9,7 @@
 body {
     padding-top: 50px;
     
-    background-color: gray;
+    background-color: #e6e6e6;
 
 }
 .block{
@@ -50,6 +50,7 @@ ul.bxslider {
 }
 .img-responsive{
   padding-bottom: 35px;
+  height: 900px;
 }
 .center-text div{
 	position: relative;
@@ -84,8 +85,11 @@ img{border:0;}
 .pos{
   position: relative;
   top: 50%;
-}
 
+}
+.end{
+   background-color: gray;
+}
 .s-w-t{
   font-size: 13px;
 }
