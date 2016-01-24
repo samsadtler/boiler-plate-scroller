@@ -10,7 +10,16 @@ body {
     padding-top: 50px;
     
     background-color: #e6e6e6;
-
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+  color: white; 
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: white
 }
 .block{
     padding: 20px 0px;   
@@ -122,9 +131,9 @@ img{border:0;}
     -moz-column-rule: 4px;  /* Firefox */
     column-rule: 4px 
 }
-footer{
+.footer{
   color: white;
-    
+  background-color:gray;    
 
 }
 /* ----------- iPhone 4 and 4S ----------- */
