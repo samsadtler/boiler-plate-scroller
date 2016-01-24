@@ -138,7 +138,9 @@ img{border:10px;}
 .footer{
   color: white;
   background-color:gray;    
-
+}
+a, a:hover, a:active{
+  color: white !important;
 }
 /* ----------- iPhone 4 and 4S ----------- */
 
