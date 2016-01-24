@@ -34,7 +34,7 @@ nav{
 }
 .h4{
   font-size: 24px !important;
-
+  line-height: 25px;
 }
 .h2{
   color:white;
@@ -70,8 +70,7 @@ ul.bxslider {
 	position: relative;
     text-align: center;
     color: white;
-    /*background-color: gray;*/
-	/*opacity: .7;*/
+    top: 30px;
     font-size: 4em;
 }
 .bx-wrapper .bx-viewport {
