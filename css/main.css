@@ -23,7 +23,9 @@ body {
   font-size: 24px;
 
 }
-
+.h2{
+  color:white;
+}
 h2{
   font-size:30px;
 }
@@ -89,6 +91,13 @@ img{border:0;}
 }
 .spacer-div{
   height: 95px;
+}
+.spacer{
+  height: 40px
+}
+.sm-spacer{height: 15px}
+.slides-only{
+  height: 500px;
 }
 .split{
 	/*column split for text only page*/
